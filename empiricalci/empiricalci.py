@@ -24,3 +24,8 @@ def postResults(results):
     print "Endpoint:", endpoint
     print "Results:", results
     requests.patch(endpoint, json=results, headers={'Authorization': 'Basic ' + AUTH})
+
+def saveOverall(metric, value):
+    result = open('/workspace/overall.json', 'w')
+    result.write('{{"metric": "{}", "value": {}}}'.format(metric, value))
+    result.close()
