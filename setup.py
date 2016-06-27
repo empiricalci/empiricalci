@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
 	name = 'empiricalci',
 	packages = ['empiricalci'],
-	version = '0.1',
+	version = '0.1.1',
 	install_requires = ['zerorpc', 'requests'],
 	description = 'Library for Empirical CI',
 	author = 'Alan Torres',
