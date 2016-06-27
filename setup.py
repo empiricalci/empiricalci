@@ -9,7 +9,7 @@ setup(
 	author = 'Alan Torres',
 	author_email = 'alan@empiricalci.com',
 	url = 'https://github.com/empiricalci/empiricalci',
-	download_url = 'https://github.com/empiricalci/empiricalci/tarball/0.1',
+	download_url = 'https://github.com/empiricalci/empiricalci/tarball/0.1.1',
 	keywords = ['research', 'empiric', 'scientific'],
 	classifiers = []
 )
